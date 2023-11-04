@@ -6,6 +6,11 @@ Faker russian specific values INN, OGRN, KPP etc.
 composer require --dev davarch/faker-russian
 ```
 
+Change faker_locale in config/app.php
+```php
+    'faker_locale' => 'ru_RU',
+```
+
 ## Usage
 ```php
 use Illuminate\Support\Str;
