@@ -13,6 +13,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  
 class UserFactory extends Factory
 {
+    /**
+     * @var \Davarch\FakerRussian\Faker
+     */
+    protected $faker;
+    
     public function definition(): array
     {
         return [
